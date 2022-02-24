@@ -1,0 +1,25 @@
+.button {
+    border: 2px solid #46CBFA;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.outline {
+    background-color: white;
+    color: #46CBFA;
+    &:hover {
+        background-color: darken($color: white, $amount: 5);
+    }
+}
+
+.fill {
+    background-color: #46CBFA;
+    color: white;
+    &:hover {
+        background-color: darken($color: #46CBFA, $amount: 5);
+        border-color: darken($color: #46CBFA, $amount: 5);
+    }
+}
