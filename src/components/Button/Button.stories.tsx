@@ -25,3 +25,7 @@ OutlineA.args = {
     variant: "outline",
     children: "Outline args"
 }
+
+export const Log = () => (
+    <Button onClick={()=> console.log("clicked")}>Log</Button>
+)
