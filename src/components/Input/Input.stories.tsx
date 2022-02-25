@@ -8,5 +8,5 @@ export default {
 
 
 export const Small = () => <Input s="small" placeholder="small input"/>;
-export const Medium = () => <Input placeholder="medium input" />;
+export const Medium = () => <Input placeholder="medium input" data-testid="emailInput" />;
 export const Large = () => <Input s="large" placeholder="large input" />;

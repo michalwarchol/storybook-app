@@ -2,7 +2,6 @@ import { addDecorator, addParameters } from "@storybook/react";
 import { withConsole } from "@storybook/addon-console";
 import "@storybook/addon-console"; //add console addon
 import { INITIAL_VIEWPORTS } from "@storybook/addon-viewport";
-import { withA11y } from "@storybook/addon-a11y";
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
